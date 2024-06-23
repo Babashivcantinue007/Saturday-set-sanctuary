@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturday Set Sanctuary</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: url('https://i.imgur.com/ZlJXFSf.png') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+            position: relative;
+        }
+        .header h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .header p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: 80px;
+            background: url('https://i.imgur.com/3dlogo.png') no-repeat center center/cover;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #2e7d32;
+            font-size: 2em;
+            border-bottom: 2px solid #2e7d32;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .footer {
+            background-color: #2e7d32;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .footer p {
+            margin: 0;
+        }
+        .jungle {
+            background: url('https://i.imgur.com/m8vSSKJ.png') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+            margin: 20px 0;
+        }
+        .jungle h2 {
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .jungle p {
+            font-size: 1.2em;
+        }
+        .story {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .story h3 {
+            color: #2e7d32;
+            font-size: 1.5em;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .team-member {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex: 1;
+            min-width: 250px;
+        }
+        .team-member h3 {
+            color: #2e7d32;
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+        .team-member p {
+            font-size: 1em;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"></div>
+        <h1>Saturday Set Sanctuary</h1>
+        <p>Creating a Lasting, Beautiful Environment</p>
+    </div>
+    <div class="content">
+        <div class="section">
+            <h2>About Us</h2>
+            <p>"Saturday Set Sanctuary" is an innovative NGO where youth lead the charge in creating a lasting, beautiful environment. Every Saturday, volunteers come together to make a tangible difference in their communities through various environmental projects. Our mission is to inspire and empower the next generation to take an active role in preserving and enhancing our natural surroundings.</p>
+        </div>
+        <div class="section jungle">
+            <h2>Reconnect with Nature</h2>
+            <p style="background-color: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 5px;">In an era where technology dominates our daily lives, we also focus on encouraging people to disconnect from their devices and reconnect with nature. Our activities extend to rural areas and schools, where we organize engaging, hands-on experiences that teach the importance of environmental stewardship and foster a sense of community.</p>
+        </div>
+        <div class="section">
+            <h2>Join Us</h2>
+            <p>Join us in making every Saturday a memorable and transformative experience. Be part of a revolution that not only contributes to a greener, more sustainable future but also reminds us of the joy and fulfillment that comes from living in harmony with the natural world. Together, let's create a legacy that future generations will remember and cherish.</p>
+        </div>
+        <div class="section">
+            <h2>Our Team</h2>
+            <div class="team">
+                <div class="team-member">
+                    <h3>Saurabh Sengar</h3>
+                    <p><strong>Founder</strong></p>
+                    <p>Saurabh Sengar founded Saturday Set Sanctuary with the vision of creating a platform where youth could actively contribute to environmental preservation. His leadership and dedication have been the driving force behind the NGO's success.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Subrat Pandey</h3>
+                    <p><strong>Head of Volunteers</strong></p>
+                    <p>Subrat Pandey oversees the coordination and management of volunteers. His organizational skills ensure that each project is executed smoothly and effectively, making a significant impact on the communities we serve.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Miss Priya Pal</h3>
+                    <p><strong>Awareness and Fundraising</strong></p>
+                    <p>Miss Priya Pal is dedicated to spreading awareness about environmental issues and raising funds to support our initiatives. Her efforts in outreach and education help us expand our reach and achieve our goals.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Ancient Stories</h2>
+            <div class="story">
+                <h3>The Tale of Rishi Markandeya and the Great Flood</h3>
+                <p>Once upon a time, in ancient India, there was a wise sage named Rishi Markandeya. One day, while meditating on the banks of a river, he witnessed a great flood that threatened to destroy the natural world. The gods, impressed by his devotion, granted him a vision of the future. In his vision, he saw the importance of preserving the environment and teaching future generations to live in harmony with nature. Inspired by this vision, Rishi Markandeya dedicated his life to spreading awareness about environmental stewardship, becoming a symbol of hope and wisdom for all.</p>
+            </div>
+            <div class="story">
+                <h3>The Legend of Rishi Kanva and the Forest Sanctuary</h3>
+                <p>Rishi Kanva, known for his deep connection with nature, lived in a serene forest ashram. He taught his disciples the value of every living being and the importance of maintaining ecological balance. Under his guidance, the forest became a sanctuary for all creatures, where humans and animals coexisted in perfect harmony. The story of Rishi Kanva inspires us to create our own sanctuaries, where we can protect and cherish the natural world.</p>
+            </div>
+            <div class="story">
+                <h3>The Wisdom of Rishi Vashishta and the River Saraswati</h3>
+                <p>Rishi Vashishta, one of the revered Sapta Rishis, resided by the holy river Saraswati. He understood the vital role of water in sustaining life and taught his followers the importance of conserving water resources. Through his teachings, the river Saraswati remained pure and bountiful, providing life and prosperity to the land. Rishi Vashishta's wisdom reminds us of our duty to protect and preserve our water bodies for future generations.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Saturday Set Sanctuary. All rights reserved.</p>
+    </div>
+</body>
+</html>
